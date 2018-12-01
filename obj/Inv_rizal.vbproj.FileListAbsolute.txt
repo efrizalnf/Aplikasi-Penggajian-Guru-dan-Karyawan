@@ -1,0 +1,6 @@
+D:\VB\Rizal\Inv_rizal\Inv_rizal\obj\Debug\Inv_rizal.exe
+D:\VB\Rizal\Inv_rizal\Inv_rizal\obj\Debug\Inv_rizal.xml
+D:\VB\Rizal\Inv_rizal\Inv_rizal\obj\Debug\Inv_rizal.pdb
+D:\VB\Aplikasi Penggajian Guru dan Karyawan YAPINDA\Gaji\obj\Debug\Inv_rizal.exe
+D:\VB\Aplikasi Penggajian Guru dan Karyawan YAPINDA\Gaji\obj\Debug\Inv_rizal.xml
+D:\VB\Aplikasi Penggajian Guru dan Karyawan YAPINDA\Gaji\obj\Debug\Inv_rizal.pdb

@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AE44711A-AFBD-4C81-B296-D886DB2ED54B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>penggajian.My.MyApplication</StartupObject>
+    <RootNamespace>penggajian</RootNamespace>
+    <AssemblyName>Penggajian YAPINDA</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <ApplicationIcon>YAPINDA.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Penggajian YAPINDA.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Penggajian YAPINDA.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Formcetakslipkategori.Designer.vb">
+      <DependentUpon>Formcetakslipkategori.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formcetakslipkategori.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlaporanslipkategori.Designer.vb">
+      <DependentUpon>Formlaporanslipkategori.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formlaporanslipkategori.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrEditKehadiran.Designer.vb">
+      <DependentUpon>FrEditKehadiran.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrEditKehadiran.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frhapuspegawai.Designer.vb">
+      <DependentUpon>Frhapuspegawai.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frhapuspegawai.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrHitunggaji.Designer.vb">
+      <DependentUpon>FrHitunggaji.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrHitunggaji.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrKehadiran.Designer.vb">
+      <DependentUpon>FrKehadiran.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrKehadiran.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frlogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frlogin.Designer.vb">
+      <DependentUpon>Frlogin.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrInputKehadiran.Designer.vb">
+      <DependentUpon>FrInputKehadiran.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrInputKehadiran.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frPegawai.Designer.vb">
+      <DependentUpon>frPegawai.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frPegawai.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrPegawaiEdit.Designer.vb">
+      <DependentUpon>FrPegawaiEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrPegawaiEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrPenggajian.Designer.vb">
+      <DependentUpon>FrPenggajian.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrPenggajian.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frpengguna.Designer.vb">
+      <DependentUpon>Frpengguna.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frpengguna.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frptpegawai.Designer.vb">
+      <DependentUpon>frptpegawai.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frptpegawai.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frutama.Designer.vb">
+      <DependentUpon>Frutama.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frutama.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReportPegawai.Designer.vb">
+    </Compile>
+    <Compile Include="FormReportPenggajian.Designer.vb">
+      <DependentUpon>FormReportPenggajian.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormReportPenggajian.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormrReportKehadiran.Designer.vb">
+      <DependentUpon>FormrReportKehadiran.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormrReportKehadiran.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSlipGaji.Designer.vb">
+      <DependentUpon>FormSlipGaji.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormSlipGaji.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RptSlipgaji.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RptSlipgaji.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="penggajian.vb" />
+    <Compile Include="RptKehadiran.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RptKehadiran.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RptPegawai.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RptPegawai.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RptPenggajian.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RptPenggajian.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Formcetakslipkategori.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Formcetakslipkategori.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlaporanslipkategori.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Formlaporanslipkategori.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrEditKehadiran.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrEditKehadiran.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frhapuspegawai.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frhapuspegawai.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrHitunggaji.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrHitunggaji.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrKehadiran.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrKehadiran.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frlogin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frlogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrInputKehadiran.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrInputKehadiran.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frPegawai.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frPegawai.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrPegawaiEdit.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrPegawaiEdit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrPenggajian.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrPenggajian.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frpengguna.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frpengguna.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frptpegawai.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frptpegawai.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frutama.resx">
+      <DependentUpon>Frutama.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormReportPenggajian.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormReportPenggajian.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormrReportKehadiran.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormrReportKehadiran.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSlipGaji.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormSlipGaji.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RptSlipgaji.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RptSlipgaji.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RptKehadiran.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RptKehadiran.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RptPegawai.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RptPegawai.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RptPenggajian.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RptPenggajian.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="YAPINDA LOGO2.ico" />
+    <Content Include="YAPINDA.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Laporan\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

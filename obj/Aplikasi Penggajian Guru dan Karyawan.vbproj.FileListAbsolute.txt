@@ -1,0 +1,31 @@
+D:\VB\Aplikasi Penggajian Guru dan Karyawan YAPINDA\Gaji\bin\Debug\Penggajian YAPINDA.exe.config
+D:\VB\Aplikasi Penggajian Guru dan Karyawan YAPINDA\Gaji\obj\Debug\Penggajian YAPINDA.exe
+D:\VB\Aplikasi Penggajian Guru dan Karyawan YAPINDA\Gaji\obj\Debug\Penggajian YAPINDA.xml
+D:\VB\Aplikasi Penggajian Guru dan Karyawan YAPINDA\Gaji\obj\Debug\Penggajian YAPINDA.pdb
+D:\VB\Aplikasi Penggajian Guru dan Karyawan YAPINDA\Gaji\bin\Debug\Penggajian YAPINDA.exe
+D:\VB\Aplikasi Penggajian Guru dan Karyawan YAPINDA\Gaji\bin\Debug\Penggajian YAPINDA.pdb
+D:\VB\Aplikasi Penggajian Guru dan Karyawan YAPINDA\Gaji\bin\Debug\Penggajian YAPINDA.xml
+D:\VB\Aplikasi Penggajian Guru dan Karyawan YAPINDA\Gaji\obj\Debug\ResolveAssemblyReference.cache
+D:\VB\Aplikasi Penggajian Guru dan Karyawan YAPINDA\Gaji\obj\Debug\penggajian.FrEditKehadiran.resources
+D:\VB\Aplikasi Penggajian Guru dan Karyawan YAPINDA\Gaji\obj\Debug\penggajian.FrHitunggaji.resources
+D:\VB\Aplikasi Penggajian Guru dan Karyawan YAPINDA\Gaji\obj\Debug\penggajian.Frlogin.resources
+D:\VB\Aplikasi Penggajian Guru dan Karyawan YAPINDA\Gaji\obj\Debug\penggajian.FrInputKehadiran.resources
+D:\VB\Aplikasi Penggajian Guru dan Karyawan YAPINDA\Gaji\obj\Debug\penggajian.FrPenggajian.resources
+D:\VB\Aplikasi Penggajian Guru dan Karyawan YAPINDA\Gaji\obj\Debug\penggajian.frutama.resources
+D:\VB\Aplikasi Penggajian Guru dan Karyawan YAPINDA\Gaji\obj\Debug\penggajian.Resources.resources
+D:\VB\Aplikasi Penggajian Guru dan Karyawan YAPINDA\Gaji\obj\Debug\Aplikasi Penggajian Guru dan Karyawan.vbproj.GenerateResource.Cache
+D:\VB\Aplikasi Penggajian Guru dan Karyawan YAPINDA\Gaji\obj\Debug\penggajian.frPegawai.resources
+D:\VB\Aplikasi Penggajian Guru dan Karyawan YAPINDA\Gaji\obj\Debug\penggajian.FrPegawaiEdit.resources
+D:\VB\Aplikasi Penggajian Guru dan Karyawan YAPINDA\Gaji\obj\Debug\penggajian.Frpengguna.resources
+D:\VB\Aplikasi Penggajian Guru dan Karyawan YAPINDA\Gaji\obj\Debug\penggajian.RptPegawai.rpt
+D:\VB\Aplikasi Penggajian Guru dan Karyawan YAPINDA\Gaji\obj\Debug\penggajian.RptKehadiran.rpt
+D:\VB\Aplikasi Penggajian Guru dan Karyawan YAPINDA\Gaji\obj\Debug\penggajian.RptPenggajian.rpt
+D:\VB\Aplikasi Penggajian Guru dan Karyawan YAPINDA\Gaji\obj\Debug\penggajian.formlaporankehadiran.resources
+D:\VB\Aplikasi Penggajian Guru dan Karyawan YAPINDA\Gaji\obj\Debug\penggajian.FormReportPenggajian.resources
+D:\VB\Aplikasi Penggajian Guru dan Karyawan YAPINDA\Gaji\obj\Debug\penggajian.FormrReportKehadiran.resources
+D:\VB\Aplikasi Penggajian Guru dan Karyawan YAPINDA\Gaji\obj\Debug\penggajian.RptSlipgaji.rpt
+D:\VB\Aplikasi Penggajian Guru dan Karyawan YAPINDA\Gaji\obj\Debug\penggajian.FormSlipGaji.resources
+D:\VB\Aplikasi Penggajian Guru dan Karyawan YAPINDA\Gaji\obj\Debug\penggajian.frptpegawai.resources
+D:\VB\Aplikasi Penggajian Guru dan Karyawan YAPINDA\Gaji\obj\Debug\penggajian.Frhapuspegawai.resources
+D:\VB\Aplikasi Penggajian Guru dan Karyawan YAPINDA\Gaji\obj\Debug\penggajian.Formlaporanslipkategori.resources
+D:\VB\Aplikasi Penggajian Guru dan Karyawan YAPINDA\Gaji\obj\Debug\penggajian.Formcetakslipkategori.resources

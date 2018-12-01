@@ -1,0 +1,11 @@
+bin\Debug\Inv_rizal.exe
+bin\Debug\Inv_rizal.pdb
+bin\Debug\Inv_rizal.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Inv_rizal.Frlogin.resources
+obj\Debug\Inv_rizal.Resources.resources
+obj\Debug\Inv_rizal.vbproj.GenerateResource.Cache
+obj\Debug\Inv_rizal.exe
+obj\Debug\Inv_rizal.xml
+obj\Debug\Inv_rizal.pdb
+obj\Debug\Inv_rizal.frutama.resources

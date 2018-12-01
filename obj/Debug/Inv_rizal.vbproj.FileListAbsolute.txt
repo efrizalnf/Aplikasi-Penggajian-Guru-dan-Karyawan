@@ -1,0 +1,12 @@
+D:\VB\Rizal\Inv_rizal\Inv_rizal\obj\Debug\Inv_rizal.exe
+D:\VB\Rizal\Inv_rizal\Inv_rizal\obj\Debug\Inv_rizal.xml
+D:\VB\Rizal\Inv_rizal\Inv_rizal\obj\Debug\Inv_rizal.pdb
+D:\VB\Rizal\Inv_rizal\Inv_rizal\bin\Debug\Inv_rizal.exe
+D:\VB\Rizal\Inv_rizal\Inv_rizal\bin\Debug\Inv_rizal.pdb
+D:\VB\Rizal\Inv_rizal\Inv_rizal\bin\Debug\Inv_rizal.xml
+D:\VB\Rizal\Inv_rizal\Inv_rizal\obj\Debug\ResolveAssemblyReference.cache
+D:\VB\Rizal\Inv_rizal\Inv_rizal\obj\Debug\Inv_rizal.Frlogin.resources
+D:\VB\Rizal\Inv_rizal\Inv_rizal\obj\Debug\Inv_rizal.frutama.resources
+D:\VB\Rizal\Inv_rizal\Inv_rizal\obj\Debug\Inv_rizal.Resources.resources
+D:\VB\Rizal\Inv_rizal\Inv_rizal\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\VB\Rizal\Inv_rizal\Inv_rizal\obj\Debug\GenerateResource-ResGen.write.1.tlog
